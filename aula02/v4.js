@@ -8,7 +8,6 @@ function renderizaTarefa(){
     let tarefasString ='';
     for (let i = 0 ; i < tarefas.length;i++){
         tarefasString +=(i+1)+'. '+tarefas[i]+'<br/>';
-
     }
     divListaTarefas.innerHTML= tarefasString;
 }
